@@ -14,17 +14,18 @@ export default function Weather() {
                     />
                     </div>
                     <div className="col-3">
-                    <input type="submit" value="Search" className="btn btn-primary"/>
+                    <input type="submit" value="Search 🌍" className="btn btn-primary"/>
                     
                   </div>
                     
                 </div>
             </form>
-            <h1>Los Angeles </h1>
+            <h1>Los Angeles, CA 🌵 </h1>
             <ul>
                 <li>
                     Monday, 12:00
                 </li>
+
                 <li>
                     Sunny 
                 </li>
@@ -37,6 +38,9 @@ export default function Weather() {
                </div>
               <div className="col-6">
                   <ul>
+                      <li> 
+                          Precipitation: 0% 
+                        </li>
                       <li>
                           Humidity: 10%
                       </li>
