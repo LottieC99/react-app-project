@@ -1,3 +1,22 @@
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1px solid #ff8e6e;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  font-family: monospace;
+}
+
+.Weather h1 {
+  color: #515070;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+}
+
+.Weather ul {
+  text-align: left;
+  color: #515070;
+  list-style: none;
+  font-family: "Source Code Pro", monospace;
 }
