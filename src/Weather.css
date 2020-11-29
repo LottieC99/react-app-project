@@ -37,3 +37,7 @@
   list-style: none;
   font-size: 18px;
 }
+
+.Weather temperature {
+  font-size: 30px;
+}
