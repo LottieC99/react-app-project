@@ -11,8 +11,6 @@ export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
     
     function handleResponse(response) {
-        
-
         setWeatherData({
             ready: true,
             temperature: response.data.main.temp,
@@ -22,15 +20,12 @@ export default function Weather(props) {
             icon: response.data.weather[0].icon,
             wind: response.data.wind.speed ,
             city: response.data.name,
-        });
-
-        
-        
+        });    
     }
 
     function search() {
         const apiKey = "8040433fe9fe2a6479424f9f02429b14";
-        let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
         axios.get(apiUrl).then(handleResponse);
 
 
